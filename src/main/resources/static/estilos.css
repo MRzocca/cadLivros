@@ -1,0 +1,74 @@
+body {
+  
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.fecap.br/wp-content/uploads/2021/02/pexels-element-digital-1370295-scaled.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    
+    
+
+#conteudo {
+
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://www.fecap.br/wp-content/uploads/2021/02/pexels-element-digital-1370295-scaled.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+
+h1, h2 {
+    color: #333;
+}
+
+#cadastro, #pesquisa {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultadoPesquisa {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+
